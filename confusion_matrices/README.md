@@ -31,7 +31,3 @@ and then applied to a source file like this:
 
     black sourcefile.py
 
-
-## License
-
-The code is provided under the MIT license (see LICENSE.md).
