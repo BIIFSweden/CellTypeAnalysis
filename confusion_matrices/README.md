@@ -3,27 +3,13 @@
 Code for generating confusion matrices for cell type predictions
 
 
-## Python installation (via Anaconda and pip):
-
-1. Install the Anaconda (Miniconda) package manager for Python 3.9 from [here](https://docs.conda.io/en/latest/miniconda.html). On Linux, you can also install it like this:
-```
-    curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh  
-    sh Miniconda3-latest-Linux-x86_64.sh
-```
-2. Create a new virtual environment (celltype) for the application, from the terminal or Anaconda command line:
-```
-    conda create --name celltype python=3.9
-```
-3. Activate the virtual environment and install the required Python dependendecies (via pip):
-```
-    conda activate celltype
-    pip install -r requirements.txt
-```
-
-
 ## Basic usage
 
-To generate a confusion matrix from the sample data, run
+To generate a confusion matrix from the sample data, activate the `celltype` conda environment from the command prompt or terminal,
+
+    conda activate celltype
+
+and then run
 
     python plot_confusion.py
 
