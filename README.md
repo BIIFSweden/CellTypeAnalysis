@@ -3,10 +3,10 @@
 
 ## File structure
 
-- `qupath_scripts` Groovy scripts used for cell detection and classification in QuPath.
-- `confusion_matrices` Python scripts for plotting confusion matrices.
-- `net_analysis` Python scripts and Jupyter notebook for performing neighborhood enrichment (NET) analysis.
-- `plot_interactions` Python scripts for plotting interactions after NET analysis.
+- [`qupath_scripts`](qupath_scripts) Groovy scripts used for cell detection and classification in QuPath.
+- [`confusion_matrices`](confusion_matrices) Python scripts for plotting confusion matrices.
+- [`net_analysis`](net_analysis) Python scripts and Jupyter notebook for performing neighborhood enrichment (NET) analysis.
+- [`plot_interactions`](plot_interactions) Python scripts for plotting interactions after NET analysis.
 
 
 ## Python installation (via Anaconda and pip):
